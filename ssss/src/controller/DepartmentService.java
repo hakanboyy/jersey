@@ -129,11 +129,6 @@ public class DepartmentService {
 	}
 	
 	
-	@POST
-	@Path("/addPerson")
-	public String addPerson(@FormParam("name") String name, @FormParam("surname") String surname) {
-		String message = "addPerson is called. " + "Welcome , " + name + " " + surname;
-		return message;
-	}
+	
 
 }
